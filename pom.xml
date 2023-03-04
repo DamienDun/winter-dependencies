@@ -8,7 +8,7 @@
     <artifactId>winter-dependencies</artifactId>
     <version>1.0.1</version>
 
-    <description>Winter Management System</description>
+    <description>Winter 框架依赖管理</description>
 
     <properties>
         <winter.version>1.0.1</winter.version>
@@ -314,6 +314,79 @@
                 <artifactId>spring-security-jwt</artifactId>
                 <version>${security.jwt.version}</version>
             </dependency>
+
+            <!-- winter框架 -->
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-common</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-system</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-framework</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-quartz</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-generator</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-components</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-web</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-swagger</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-dingtalk</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-file-storage</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.DamienDun.winter</groupId>
+                <artifactId>winter-oauth2</artifactId>
+                <version>${winter.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -340,6 +413,10 @@
     </build>
 
     <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
         <repository>
             <id>public</id>
             <name>aliyun nexus</name>
